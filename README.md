@@ -1,19 +1,19 @@
 # NSAC-Hypnos
-from datetime import datetime
+import datetime
 def sleeptime(n):
-        """Enter in 24 hours format"""
+        #Enter in 24 hours format
         print("Day T minus ", n)
         print("When you get to bed today?")
         print("HH")
-        input(int(shh))
+        shh=int(input())
         print("approx MM")
-        input(int(smm))
+        smm=int(input())
         sleep=datetime(shh,smm,00)
-        print("when did you wake up?"
+        print("when did you wake up?")
         print("HH")
-        input(int(whh))
+        whh=int(input())
         print("approx MM")
-        input(int(wmm))
+        wmm=int(input())
         wake=datetime(whh,wmm,00)
         n=n-1
         sleeptime=wake-sleep
@@ -22,10 +22,10 @@ def sleeptime(n):
 def meals(n):
         print("Day T minus", n)
         Print("did you had a meal right now?")
-        Input(ans)
-        If(ans=='y'):
+        ans=Input()
+        if(ans=='y'):
                 Varmeal=[]
                 Varmeal.append(datetime.currenttime())
-                Print("thanks for your response, your mealtime has been recorded"
-        Else:
+                Print("thanks for your response, your mealtime has been recorded")
+        else:
                 Print("why you called this func! Press enter to exit")
